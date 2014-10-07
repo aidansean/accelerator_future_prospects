@@ -1,0 +1,18 @@
+[mathjax]
+
+This project was written as part of the content for a talk presented at the International Workshop on Future Linear Colliders to compare the future prospects of the LHC and lepton colliders.  It is shared here in case it is of use for other physicists.
+
+<h3>Links</h3>
+
+<a href="https://github.com/aidansean/accelerator_future_prospects">GitHub repository</a>
+
+<h3>Overview</h3>
+
+This project simply plots a series of graphs.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: Using a TMultigraph in pyroot is not easy.</dt>
+
+<dd><em>Solution</em>: In order to make this work I had to use the <tt>array</tt> module, a step I usually forget!  This macro should save me a few headaches in the future. (Resolved.)</dd>
+</dl>
